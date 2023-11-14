@@ -1,0 +1,376 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100&family=Rajdhani&family=Secular+One&display=swap');
+
+/* APLICANDO CABECALHO PARA TODAS AS PAGINAS */
+.cabecalho{
+    background-color:rgba(0, 0, 0, 0.899);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 15%;
+    padding: 10px;
+    
+}
+
+.cabecalho__titulo{
+    color: red;
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 42px;
+    padding-right: 60px;
+}
+    
+
+.cabecalho__serie{
+    background-color: rgba(0, 0, 0, 0.899);
+
+}
+
+
+.cabecalho__onepiece{
+    background-color: rgba(0, 0, 0, 0.899);
+}
+
+.cabecalho__paragrafo{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.cabecalho__menu__botoes{
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.cabecalho__menu__botoes:hover{
+    background-color: transparent;
+    color: lightgray;
+    text-decoration: none;
+    
+}
+
+/* APRESENTACAO */
+
+.apresentacao{
+    color: rgb(19, 1, 1);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align:justify;
+    font-size: 32px;
+    margin-left: 50px;
+    height: 50px;
+
+}
+
+.apresentacao__netflix{
+    color: red;
+}
+
+/* APRESENTACAO IMAGEM INICIAL */
+
+.apresentacao__body__texto{
+    display: flex;
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 24px;
+    text-align: justify;
+    padding:0px 55px 0px 55px;
+    
+}
+
+
+.apresentacao__imagem{
+    display: flex;
+    margin-top: 150px;
+    margin-right: 10px;
+  
+}
+
+.apresentacao__body{
+    display: flex;
+    gap: 2%;
+    height: 650px;
+    overflow: hidden;
+
+
+}
+
+
+/* APLICANDO MENU PARA TODAS AS PAGINAS */
+
+
+.body__subtitulo__menu{
+    padding: 10px;
+    margin-left: 40px;
+    font-family:  'Rajdhani', sans-serif;
+}
+
+.body__menu{
+    padding: 1px;
+    margin: 0px;
+}
+
+.body__titulo__liveaction{
+    height: 100px;
+    padding: 10px 10px 10px 20px;
+}
+
+
+.descricao__serie{
+    padding: 10px;
+    margin: 0px;
+    height: 200px;
+}
+
+.descricao__serie__paragrafo{
+    padding: 10px 10px 10px 20px;
+    margin: 0px;
+    height: 180px;
+
+}
+
+.categorias{
+    text-align:left;
+    padding: 10px 10px 10px 20px;
+}
+
+
+.menu__item{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.menu__item:hover{
+    color: red;
+}
+
+.menu__lista{
+    justify-content: space-around;
+    list-style: none;
+    
+
+}
+
+.menu__lista__categorias{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    list-style: none;  
+    height: 310px;   
+    
+}
+
+.menu__lista__liveaction__itens{
+    color: black;
+    text-decoration: none;
+          
+}
+
+.menu__lista__liveaction__itens:hover{
+    color: red;
+}
+
+.menu__lista__liveaction{ 
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+    height: 550px;
+    
+}
+
+/* AOLICANDO ESTILOS NA PAGINA SERIES */
+
+
+
+
+
+
+/* APLICANDO ESTILO PARA A RESENHA ONE PIECE */
+/* CABECALHO ONEPIECE */
+
+.cabecalho__sinopse__onepiece{
+font-family: 'Poppins', sans-serif;
+font-family: 'Secular One', sans-serif;
+margin-bottom: 0px;
+}
+
+.cabecalho__paragrafo__onepiece{
+font-family: 'Poppins', sans-serif;
+font-family: 'Secular One', sans-serif;
+padding: 0px 10px 0px 5px;
+margin-top: 0px;
+}
+
+/* MENU ONEPIECE */
+
+.menu__paragrafo__onepiece{
+font-family: 'Poppins', sans-serif;
+font-family: 'Secular One', sans-serif;
+padding: 0px 10px 0px 5px;
+
+}
+.menu__onepiece{
+    text-align:left;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.menu__lista{
+    display: flex;
+    gap: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+    
+.menu__lista__liveaction{
+    display: flex;
+    flex-direction:row; 
+    gap: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__titulo__h4{
+padding: 0px;
+margin: 0px;
+}
+    
+
+
+
+.body__titulo__liveaction{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.descricao__serie{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    color: black;  
+}
+
+.descricao__serie__paragrafo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    text-align: justify;  
+
+}
+
+/* SERIES */
+
+
+
+
+.descricao__serie__paragrafo__onepiece{
+font-family: 'Rajdhani', sans-serif;
+font-size: 24px;
+text-align:left;
+
+}
+
+/* COMENTRIOS ONEPIECE */
+
+.cabecalho__paragrafo__onepiece{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    
+}
+
+.cabecalho__comentario__onepiece{
+ font-family:'Bebas Neue', sans-serif;
+}
+
+.cabecalho__sinopse__onepiece {
+font-family:'Bebas Neue', sans-serif;
+font-size: 34px;
+padding-left: 5px;
+}
+
+.menu__paragrafo__onepiece{
+    display: flex;
+    gap: 6%;
+    justify-content: space-around;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 5px;
+    
+}
+
+.menu__comentario__onepiece{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  padding-left: 5px;
+}
+
+
+.Menu__neftlixemfoco{
+    color: red;
+}
+
+
+/* COMENTÁRIOS */
+.titulo__comentários{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px 10px 10px 25px;
+}
+
+#opinion{
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+}
+
+.opiniao{
+    height: 660px;
+    padding: 10px 10px 10px 25px;
+
+}
+.submit{
+    padding-top: 10px;
+}
+
+
+
+
+
+/* APLICANDO RODAPE PARA TODAS AS PAGINAS */
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.899);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
